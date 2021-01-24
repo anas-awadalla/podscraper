@@ -15,7 +15,7 @@ class CategoryScraper(object):
 
     def scrape(self):
         """Scrap the category page URLs to get a listing of iTunes web addresses"""
-        TIMEOUT = 5.0
+        TIMEOUT = 10.0
         ITUNES_BASE_URL = "https://itunes.apple.com/us/genre/"
 
         CATEGORIES = {
